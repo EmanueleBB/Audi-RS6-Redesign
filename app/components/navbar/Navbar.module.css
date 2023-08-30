@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  height: 48px;
+  box-sizing: border-box;
+}
+.navbar a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #828282;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: white;
+}
+.navbar h3 {
+  color: white;
+  font-size: 22px;
+  margin-right: auto;
+}
+
+.navbar.subNavbar {
+  max-width: 50%;
+  margin-top: 24px;
+  gap: 40px;
+  border-bottom: 1px solid #828282;
+}/*# sourceMappingURL=Navbar.module.css.map */
