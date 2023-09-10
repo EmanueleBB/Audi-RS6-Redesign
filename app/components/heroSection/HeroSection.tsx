@@ -12,6 +12,17 @@ const HeroSection = () => {
             objectFit='cover'
             quality={100}
          />
+         <div className={styles.buttonsContainer}>
+            <button>
+               Cerca auto nuove
+            </button>
+            <button>
+               Configura
+            </button>
+            <button>
+               Cerca auto usate
+            </button>
+         </div>
       </div>
    )
 }

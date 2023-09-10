@@ -32,4 +32,26 @@
    margin-top:24px;
    gap:40px;
    border-bottom: 1px solid #828282;
+
+   button{
+      all:unset;
+      width:auto;
+      height:auto;
+      box-sizing: border-box;
+      background-color: white;
+      color:black;
+      font-size: 12px;
+      padding:6px 12px;
+      border-radius:20px;
+      
+      transition:all 0.15s;
+      cursor:pointer;
+      opacity:0.9;
+
+      &:hover{
+         opacity: 1;
+         background-color: white;
+         color:black;
+      }
+   }
 }
